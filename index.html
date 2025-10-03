@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Constellation illuminates rare disease genetics - Research data and code repository">
+    <title>Constellation: Illuminates Rare Disease Genetics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        .section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .section h3 {
+            color: #555;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .card h4 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.7rem 1.5rem;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #5568d3;
+        }
+        
+        .btn-secondary {
+            background: #764ba2;
+        }
+        
+        .btn-secondary:hover {
+            background: #653a8b;
+        }
+        
+        ul {
+            margin-left: 2rem;
+            margin-top: 0.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+        
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+            margin-top: 0.5rem;
+        }
+        
+        pre code {
+            background: none;
+            color: inherit;
+            padding: 0;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌟 Constellation</h1>
+        <p>Illuminates Rare Disease Genetics</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Overview</h2>
+            <p>
+                This repository contains all datasets, codes, and resources used in the scientific paper 
+                <strong>"Constellation illuminates rare disease genetics"</strong>.
+            </p>
+            <p style="margin-top: 1rem;">
+                This comprehensive resource is designed for researchers and practitioners working with 
+                rare disease genetics data, providing reproducible computational methods, benchmark datasets, 
+                and analysis pipelines.
+            </p>
+            <a href="https://github.com/jamesc99/Constellation" class="btn github-link">
+                📂 View on GitHub
+            </a>
+        </div>
+
+        <div class="section">
+            <h2>Paper Information</h2>
+            <div class="info-box">
+                <p><strong>Title:</strong> Constellation illuminates rare disease genetics</p>
+                <p><strong>Authors:</strong> [To be added]</p>
+                <p><strong>Journal:</strong> [To be added]</p>
+                <p><strong>DOI:</strong> [To be added]</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Repository Contents</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h4>💻 Source Code</h4>
+                    <p>Complete computational methods and analysis pipelines used in the study.</p>
+                    <ul>
+                        <li>Data processing scripts</li>
+                        <li>Statistical analysis tools</li>
+                        <li>Visualization code</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>📊 Benchmark Datasets</h4>
+                    <p>Original data paths and references to benchmark datasets.</p>
+                    <ul>
+                        <li>Raw data sources</li>
+                        <li>Original paths and links</li>
+                        <li>Data descriptions</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>🔬 Processed Data</h4>
+                    <p>Cleaned and analyzed datasets used in the study.</p>
+                    <ul>
+                        <li>Preprocessed data files</li>
+                        <li>Analysis results</li>
+                        <li>Intermediate outputs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Datasets</h2>
+            <h3>Benchmark Datasets</h3>
+            <p>The following benchmark datasets were used in this study:</p>
+            <ol style="margin-left: 2rem; margin-top: 1rem;">
+                <li><strong>Dataset 1:</strong> [Description and original path/source]</li>
+                <li><strong>Dataset 2:</strong> [Description and original path/source]</li>
+                <li><strong>Dataset 3:</strong> [Description and original path/source]</li>
+            </ol>
+            <p style="margin-top: 1rem;">
+                <em>Note: Original dataset paths and sources will be provided in the <code>data/</code> directory.</em>
+            </p>
+            
+            <h3>Data Files</h3>
+            <p>Processed data files are organized in the following structure:</p>
+            <ul>
+                <li><code>data/raw/</code> - Original benchmark datasets</li>
+                <li><code>data/processed/</code> - Cleaned and processed data</li>
+                <li><code>data/results/</code> - Analysis results and outputs</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Code Repository</h2>
+            <p>All code used in the study is available in the <code>code/</code> directory.</p>
+            
+            <h3>Getting Started</h3>
+            <pre><code># Clone the repository
+git clone https://github.com/jamesc99/Constellation.git
+cd Constellation
+
+# Install dependencies
+# [Instructions to be added]
+
+# Run analysis
+# [Instructions to be added]</code></pre>
+
+            <a href="https://github.com/jamesc99/Constellation/tree/main/code" class="btn">View Code</a>
+        </div>
+
+        <div class="section">
+            <h2>Citation</h2>
+            <p>If you use this data or code in your research, please cite:</p>
+            <pre><code>@article{constellation2024,
+  title={Constellation illuminates rare disease genetics},
+  author={[Authors]},
+  journal={[Journal]},
+  year={2024},
+  doi={[DOI]}
+}</code></pre>
+        </div>
+
+        <div class="section">
+            <h2>Documentation</h2>
+            <p>Additional documentation and guides are available in the <code>docs/</code> directory:</p>
+            <ul>
+                <li>Detailed methodology documentation</li>
+                <li>Data processing workflows</li>
+                <li>Reproducibility guides</li>
+                <li>API documentation (if applicable)</li>
+            </ul>
+            <a href="https://github.com/jamesc99/Constellation/tree/main/docs" class="btn btn-secondary">View Documentation</a>
+        </div>
+
+        <div class="section">
+            <h2>Contact & Support</h2>
+            <p>For questions, issues, or contributions:</p>
+            <ul>
+                <li>Open an issue on <a href="https://github.com/jamesc99/Constellation/issues">GitHub Issues</a></li>
+                <li>Review existing discussions and documentation</li>
+                <li>Contact the authors directly (contact information to be added)</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Constellation Project. All rights reserved.</p>
+        <p style="margin-top: 0.5rem;">
+            <a href="https://github.com/jamesc99/Constellation" style="color: #667eea;">GitHub Repository</a>
+        </p>
+    </footer>
+</body>
+</html>

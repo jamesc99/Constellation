@@ -1,0 +1,26 @@
+# Jekyll configuration for GitHub Pages
+
+# Site settings
+title: "Constellation: Illuminates Rare Disease Genetics"
+description: "Research data and code repository for the paper 'Constellation illuminates rare disease genetics'"
+baseurl: "/Constellation"
+url: "https://jamesc99.github.io"
+
+# Repository information
+repository: jamesc99/Constellation
+github_username: jamesc99
+
+# Theme (using GitHub Pages supported themes)
+theme: jekyll-theme-cayman
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .git/
+  - .gitignore
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
