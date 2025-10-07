@@ -54,5 +54,13 @@ SEX_PREFIX=$([[ "${SEX}" == "1" ]] && echo "1X:" || echo "2X:")
 "${TABIX_BIN}" -p vcf "${PREFIX}.merged.vcf.gz"
 
 "${BCFTOOLS_BIN}" +mendelian2 "${PREFIX}.merged.vcf.gz" \
-  --pfm "${SEX_PREFIX}${PROBA_
+  --pfm "${SEX_PREFIX}${PROBA_ID},${FATHER_ID},${MOTHER_ID}" \
+  --mode c > "${PREFIX}.summary.txt"
+
+# --- compute MER from the summary file (your script) ---
+bash "$MER_SCRIPT" "${PREFIX}.summary.txt" > "${PREFIX}.mer.tsv"
+
+echo "Done."
+echo "  Summary: ${PREFIX}.summary.txt"
+echo "  MER:     ${PREFIX}.mer.tsv"
 
