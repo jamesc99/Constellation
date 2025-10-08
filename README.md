@@ -1,10 +1,8 @@
 # Constellation illuminates rare disease genetics
 
+**This is the github repository to supplement our preprint : xx**
 
-This repository contains scripts and documentation for assessing the performance of the BCM-Constellation variant calling pipeline. The assessment includes benchmarking based on HG002 samples and a annotation/prioritization pipeline for solved and unsolved rare disease trios.
-
-
-
+The repository contains scripts and documentation for assessing the performance of the BCM-Constellation variant calling pipeline. The assessment includes benchmarking based on HG002 samples and a annotation/prioritization pipeline for solved and unsolved rare disease trios.
 
 There are two main components in this repository: HG002 Benchmarking pipeline and Annotation pipeline.
 
