@@ -1,6 +1,6 @@
 # Constellation illuminates rare disease genetics
 
-**This is the github repository to supplement our preprint : xx**
+**This is the github repository to supplement our preprint : https://www.medrxiv.org/content/10.1101/2025.10.15.25337675v1**
 
 The repository contains scripts and documentation for assessing the performance of the BCM-Constellation variant calling pipeline. The assessment includes benchmarking based on HG002 samples and a annotation/prioritization pipeline for solved and unsolved rare disease trios.
 
