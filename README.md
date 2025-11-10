@@ -7,7 +7,7 @@ The repository contains scripts and documentation for assessing the performance 
 There are two main components in this repository: HG002 Benchmarking pipeline and Annotation pipeline.
 
 ## Data Availability
-All VCF files used in HG002 benchmark were uploaded to: https://zenodo.org/records/17297907
+All VCF files used in HG002 benchmark were uploaded to: [https://zenodo.org/records/17297907](https://zenodo.org/records/17573936)
 
 ## Annotation pipeline
 
