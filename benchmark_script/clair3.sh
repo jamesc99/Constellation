@@ -1,4 +1,4 @@
-BATCH --job-name=clair3
+#SBATCH --job-name=clair3
 #SBATCH --output=%x_%A_%a.out
 #SBATCH --error=%x_%A_%a.err
 #SBATCH --ntasks=12
