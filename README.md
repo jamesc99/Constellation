@@ -1,8 +1,8 @@
-# Constellation illuminates rare disease genetics
+# Proximity mapped read technology guides rare disease genetic discover
 
 **This is the github repository to supplement our preprint : [https://www.medrxiv.org/content/10.1101/2025.10.15.25337675v2](https://www.medrxiv.org/content/10.1101/2025.10.15.25337675v2)**
 
-The repository contains scripts and documentation for assessing the performance of the BCM-Constellation variant calling pipeline. The assessment includes benchmarking based on HG002 samples and a annotation/prioritization pipeline for solved and unsolved rare disease trios.
+The repository contains scripts and documentation for assessing the performance of the BCM-Trupath Genome variant calling pipeline. The assessment includes benchmarking based on HG002 samples and a annotation/prioritization pipeline for solved and unsolved rare disease trios.
 
 There are two main components in this repository: HG002 Benchmarking pipeline and Annotation pipeline.
 
